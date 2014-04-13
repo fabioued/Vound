@@ -1,0 +1,32 @@
+[24-Mar-2014 22:59:09 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kiranrie/public_html/app/index.php:16) in /home/kiranrie/public_html/app/index.php on line 17
+[24-Mar-2014 22:59:12 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kiranrie/public_html/app/index.php:16) in /home/kiranrie/public_html/app/index.php on line 17
+[24-Mar-2014 22:59:13 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kiranrie/public_html/app/index.php:16) in /home/kiranrie/public_html/app/index.php on line 17
+[24-Mar-2014 23:04:04 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kiranrie/public_html/app/index.php:16) in /home/kiranrie/public_html/app/index.php on line 17
+[24-Mar-2014 23:04:05 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kiranrie/public_html/app/index.php:16) in /home/kiranrie/public_html/app/index.php on line 17
+[24-Mar-2014 23:04:06 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kiranrie/public_html/app/index.php:16) in /home/kiranrie/public_html/app/index.php on line 17
+[24-Mar-2014 23:10:28 Europe/Berlin] PHP Parse error:  syntax error, unexpected ',' in /home/kiranrie/public_html/app/index.php on line 85
+[24-Mar-2014 23:27:57 Europe/Berlin] PHP Fatal error:  Can't use function return value in write context in /home/kiranrie/public_html/app/index.php on line 29
+[24-Mar-2014 23:28:36 Europe/Berlin] PHP Fatal error:  Can't use function return value in write context in /home/kiranrie/public_html/app/index.php on line 29
+[24-Mar-2014 23:28:37 Europe/Berlin] PHP Fatal error:  Can't use function return value in write context in /home/kiranrie/public_html/app/index.php on line 29
+[24-Mar-2014 23:28:38 Europe/Berlin] PHP Fatal error:  Can't use function return value in write context in /home/kiranrie/public_html/app/index.php on line 29
+[24-Mar-2014 23:29:04 Europe/Berlin] PHP Fatal error:  Can't use function return value in write context in /home/kiranrie/public_html/app/index.php on line 29
+[24-Mar-2014 23:29:05 Europe/Berlin] PHP Fatal error:  Can't use function return value in write context in /home/kiranrie/public_html/app/index.php on line 29
+[24-Mar-2014 23:29:08 Europe/Berlin] PHP Fatal error:  Can't use function return value in write context in /home/kiranrie/public_html/app/index.php on line 29
+[24-Mar-2014 23:34:16 Europe/Berlin] PHP Warning:  ini_set() expects exactly 2 parameters, 1 given in /home/kiranrie/public_html/app/index.php on line 32
+[24-Mar-2014 23:37:36 Europe/Berlin] PHP Warning:  ini_set() expects exactly 2 parameters, 1 given in /home/kiranrie/public_html/app/index.php on line 32
+[24-Mar-2014 23:38:35 Europe/Berlin] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/kiranrie/public_html/app/index.php on line 193
+[24-Mar-2014 23:38:40 Europe/Berlin] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/kiranrie/public_html/app/index.php on line 193
+[24-Mar-2014 23:38:42 Europe/Berlin] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/kiranrie/public_html/app/index.php on line 193
+[24-Mar-2014 23:38:44 Europe/Berlin] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/kiranrie/public_html/app/index.php on line 193
+[24-Mar-2014 23:40:01 Europe/Berlin] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/kiranrie/public_html/app/index.php on line 193
+[24-Mar-2014 23:40:04 Europe/Berlin] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/kiranrie/public_html/app/index.php on line 193
+[24-Mar-2014 23:40:05 Europe/Berlin] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/kiranrie/public_html/app/index.php on line 193
+[24-Mar-2014 23:40:07 Europe/Berlin] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/kiranrie/public_html/app/index.php on line 193
+[25-Mar-2014 10:09:24 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in /home/kiranrie/public_html/app/demo.php on line 186
+[25-Mar-2014 10:09:50 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in /home/kiranrie/public_html/app/demo.php on line 226
+[25-Mar-2014 10:09:52 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in /home/kiranrie/public_html/app/demo.php on line 226
+[25-Mar-2014 18:45:00 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/kiranrie/public_html/app/index.php on line 280
+[25-Mar-2014 18:46:00 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/kiranrie/public_html/app/index.php on line 276
+[25-Mar-2014 18:46:02 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/kiranrie/public_html/app/index.php on line 276
+[25-Mar-2014 18:46:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in /home/kiranrie/public_html/app/index.php on line 275
+[25-Mar-2014 18:46:38 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in /home/kiranrie/public_html/app/index.php on line 275

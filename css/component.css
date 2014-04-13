@@ -1,0 +1,694 @@
+html,
+body,
+.st-container,
+.st-pusher,
+.st-content {
+	height: 100%;
+	background: #5d5c74;
+}
+
+body {
+	color: #ffffff;
+	font-weight: 300;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+#head-logo {
+	background: #5d5c74;
+	padding: 20px;
+}
+
+table.logo {
+	border-collapse: collapse;
+	border: none;
+	border-color:#5d5c74;
+}
+
+table.logo tr td {
+	border-collapse: collapse;
+	border: none;
+	border-color:#5d5c74;
+}
+
+div.clip-demo {
+	margin: 25px 25px 0 25px;
+}
+
+div.clip-demo:first-child{float: right;}
+div.clip-demo:nth-child(3){float: right;}
+div.clip-demo:nth-child(5){float: right;}
+div.clip-demo:nth-child(7){float: right;}
+div.clip-demo:nth-child(9){float: right;}
+div.clip-demo:nth-child(11){float: right;}
+div.clip-demo:nth-child(13){float: right;}
+div.clip-demo:nth-child(15){float: right;}
+div.clip-demo:nth-child(17){float: right;}
+div.clip-demo:nth-child(19){float: right;}
+div.clip-demo:nth-child(21){float: right;}
+div.clip-demo:nth-child(23){float: right;}
+div.clip-demo:nth-child(25){float: right;}
+
+a {
+	text-decoration: none;
+	color: #48a770;
+	outline: none;
+}
+
+a:hover, a:focus {
+	color: #2c774b;
+	outline: none;
+}
+
+table.result {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+table.result tr td {width: 33.3%;}
+table.result tr th {width: 33.3%;}
+
+table.result h3 img {
+	width: 20px;
+	margin: 0 10px -3px 0;
+}
+
+p.keyword {
+	border-left: 2px solid #3b3a48;
+	padding: 0px 0px 0px 10px;
+	margin-bottom: 60px;
+}
+
+mark.hoy {
+	color: #FFF;
+	background: #F05F62;
+}
+
+tr.ole td {
+	line-height:35px;
+	font-weight: bold;
+}
+
+tr.ole td:first-child {
+	padding: 0px 0px 0px 5px;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: " ";
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.kiki-la-praline-header,
+.kiki-la-praline-top {
+	font-family: 'Lato', Arial, sans-serif;
+}
+
+.kiki-la-praline-header {
+	margin: 0 auto 1em;
+	padding: 1em;
+	text-align: center;
+}
+
+.kiki-la-praline-header h1 {
+	margin: 0;
+	font-weight: 300;
+	font-size: 2.625em;
+	line-height: 1.3;
+	display: inline-block;
+	float: right;
+}
+
+.kiki-la-praline-header span {
+	display: block;
+	padding: 0 0 0.6em 0.1em;
+	font-size: 60%;
+	color: #aca89a;
+}
+
+/* To Navigation Style */
+.kiki-la-praline-top {
+	width: 100%;
+	text-transform: uppercase;
+	font-size: 0.69em;
+	line-height: 2.2;
+	font-weight: 400;
+	background: rgba(255,255,255,0.3);
+}
+
+.kiki-la-praline-top a {
+	display: inline-block;
+	padding: 0 1em;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+}
+
+.kiki-la-praline-top a:hover {
+	background: rgba(255,255,255,0.4);
+	color: #333;
+}
+
+.kiki-la-praline-top span.right {
+	float: right;
+}
+
+.kiki-la-praline-top span.right a {
+	display: block;
+	float: left;
+}
+
+.kiki-la-praline-icon:before {
+	margin: 0 4px;
+	text-transform: none;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-family: 'kiki-la-pralineicons';
+	line-height: 1;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+.kiki-la-praline-icon-drop:before {
+	content: "\e001";
+}
+
+.kiki-la-praline-icon-prev:before {
+	content: "\e004";
+}
+
+.main {
+	max-width: 80em;
+	margin: 0 auto;
+	background: #5d5c74;
+}
+
+.column {
+	float: left;
+	width: 50%;
+	padding: 0 2em;
+	min-height: 300px;
+	position: relative;
+	text-align: left;
+}
+
+.column:first-child h2 {
+	text-align: right;
+}
+
+.column:nth-child(2) {
+	box-shadow: -1px 0 0 rgba(0,0,0,0.1);
+	text-align: left;
+}
+
+.column h2 {
+	font-weight: 300;
+	font-size: 2em;
+	padding: 1em 0;
+	margin: 0;
+	line-height: 1.5;
+}
+input[type="submit"] {
+    background: none repeat scroll 0 0 #F05F62;
+    border-radius: 5px;
+    box-shadow: 0 5px 0 0 #DA484C;
+    border: none;
+    color: #FFFFFF;
+    display: inline-block;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    transition: all 0.5s ease-out 0s;
+    width: 160px;
+    display: block;
+    margin: 20px auto;
+}
+
+input[type="submit"]:hover {
+    background: none repeat scroll 0 0 #DA484C;
+    box-shadow: 0 5px 0 0 #F05F62;
+}
+
+input.kiki {
+	background: none repeat scroll 0 0 #F3F3F3;
+    border: 1px solid #F3F3F3;
+    color: #575859;
+    font-family: inherit;
+    font-size: 100%;
+    width: 100%;
+    padding: 0.5rem 0.9rem;
+    vertical-align: baseline;
+}
+/*
+input[type="submit"] {
+	border: none;
+	padding: 0.6em 1.2em;
+	background: #388a5a;
+	color: #fff;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-size: 1em;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	cursor: pointer;
+	display: inline-block;
+	margin: 3px 2px;
+	border-radius: 2px;
+}
+
+input[type="submit"]:hover {
+	background: #2c774b;
+}
+*/
+
+.info {
+	text-align: center;
+	font-size: 1.5em;
+	margin-top: 3em;
+	clear: both;
+	padding: 3em 0;
+	opacity: 0.7;
+	color: #aca89a;
+}
+
+.info a {
+	font-weight: 700;
+	font-size: 0.9em;
+}
+
+@media screen and (max-width: 46.0625em) {
+	.column {
+		width: 100%;
+		min-width: auto;
+		min-height: auto;
+		padding: 2em; 
+		text-align: center;
+	}
+
+	.column p {
+		font-size: 1.5em;
+	}
+
+	.column:nth-child(2) {
+		text-align: center;
+		box-shadow: 0 -1px 0 rgba(0,0,0,0.1);
+	}
+}
+
+@media screen and (max-width: 25em) {
+
+	.kiki-la-praline-header {
+		font-size: 80%;
+	}
+
+	.kiki-la-praline-top {
+		font-size: 120%;
+	}
+
+	.kiki-la-praline-icon span {
+		display: none;
+	}
+
+}
+
+
+
+*,
+*:after,
+*::before {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+ul.tools li span {
+	padding: 0px 0px 0px 10px;
+	font-size: 0.8em;
+}
+
+/*******************/
+
+.st-content {
+	overflow-y: scroll;
+	background: #fd6866;
+	width: 98%;
+	height:98%;
+	margin: auto;
+	
+}
+
+.st-content,
+.st-content-inner {
+	position: relative;
+	
+}
+
+.st-container {
+	position: relative;
+	overflow: hidden;
+}
+
+.st-pusher {
+	position: relative;
+	left: 0;
+	z-index: 99;
+	height: 100%;
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+}
+
+.st-pusher::after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 0;
+	height: 0;
+	background: rgba(0,0,0,0.2);
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
+	transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
+}
+
+.st-menu-open .st-pusher::after {
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+
+.st-menu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	visibility: hidden;
+	width: 300px;
+	height: 100%;
+	background: #48a770;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.st-menu::after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.2);
+	content: '';
+	opacity: 1;
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+
+.st-menu-open .st-menu::after {
+	width: 0;
+	height: 0;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
+	transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
+}
+
+/* content style */
+
+.st-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.st-menu h2 {
+	margin: 0;
+	padding: 1em;
+	color: rgba(0,0,0,0.4);
+	text-shadow: 0 0 1px rgba(0,0,0,0.1);
+	font-weight: 300;
+	font-size: 2em;
+}
+
+.st-menu ul li a {
+	display: block;
+	padding: 1em 1em 1em 1.2em;
+	outline: none;
+	box-shadow: inset 0 -1px rgba(0,0,0,0.2);
+	color: #f3efe0;
+	text-transform: uppercase;
+	text-shadow: 0 0 1px rgba(255,255,255,0.1);
+	letter-spacing: 1px;
+	font-weight: 400;
+	-webkit-transition: background 0.3s, box-shadow 0.3s;
+	transition: background 0.3s, box-shadow 0.3s;
+}
+
+.st-menu ul li:first-child a {
+	box-shadow: inset 0 -1px rgba(0,0,0,0.2), inset 0 1px rgba(0,0,0,0.2);
+}
+
+.st-menu ul li a:hover {
+	background: rgba(0,0,0,0.2);
+	box-shadow: inset 0 -1px rgba(0,0,0,0);
+	color: #fff;
+}
+
+/* Individual effects */
+
+
+/* Effect 6: Rotate pusher */
+
+.st-effect-6.st-container {
+	-webkit-perspective: 1500px;
+	perspective: 1500px;
+}
+
+.st-effect-6 .st-pusher {
+	-webkit-transform-origin: 0% 50%;
+	transform-origin: 0% 50%;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.st-effect-6.st-menu-open .st-pusher {
+	-webkit-transform: translate3d(300px, 0, 0) rotateY(-15deg);
+	transform: translate3d(300px, 0, 0) rotateY(-15deg);
+}
+
+.st-effect-6.st-menu {
+	-webkit-transform: translate3d(-100%, 0, 0);
+	transform: translate3d(-100%, 0, 0);
+	-webkit-transform-origin: 100% 50%;
+	transform-origin: 100% 50%;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.st-effect-6.st-menu-open .st-effect-6.st-menu {
+	visibility: visible;
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+	-webkit-transform: translate3d(-100%, 0, 0) rotateY(15deg);
+	transform: translate3d(-100%, 0, 0) rotateY(15deg);
+}
+
+.st-effect-6.st-menu::after {
+	display: none;
+}
+
+
+/* Fallback example for browsers that don't support 3D transforms (and no JS fallback) */
+.no-csstransforms3d .st-pusher,
+.no-js .st-pusher {
+	padding-left: 300px;
+}
+
+
+/********* FONTS **********/
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ac-custom {
+	padding: 0 3em;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+
+.ac-custom ul,
+.ac-custom ol {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+.ac-custom li {
+	margin: 0 auto;
+	padding: 2em 0;
+	position: relative;
+}
+
+.ac-custom label {
+	display: inline-block;
+	position: relative;
+	font-size: 1.2em;
+	padding: 0 0 0 80px;
+	vertical-align: top;
+	color: rgba(255,255,255,0.4);
+	cursor: pointer;
+	-webkit-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.ac-custom input[type="checkbox"],
+.ac-custom input[type="radio"],
+.ac-custom label::before {
+	width: 50px;
+	height: 50px;
+	top: 50%;
+	left: 0;
+	margin-top: -25px;
+	position: absolute;
+	cursor: pointer;
+}
+
+.ac-custom input[type="checkbox"],
+.ac-custom input[type="radio"] {
+	opacity: 0;
+	-webkit-appearance: none;
+	display: inline-block;
+	vertical-align: middle;
+	z-index: 100;
+}
+
+.ac-custom label::before {
+	content: '';
+	border: 4px solid #fff;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.ac-radio label::before {
+	border-radius: 50%;
+}
+
+.ac-custom input[type="checkbox"]:checked + label,
+.ac-custom input[type="radio"]:checked + label {
+	color: #fff;
+	font-weight: bold;
+} 
+
+.ac-custom input[type="checkbox"]:checked + label::before,
+.ac-custom input[type="radio"]:checked + label::before {
+	opacity: 0.8;
+}
+
+/* General SVG and path styles */
+
+.ac-custom svg {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 50%;
+	margin-top: -20px;
+	left: 5px;
+	pointer-events: none;
+}
+
+.ac-custom svg path {
+	stroke: #fdfcd3;
+	stroke-width: 13px;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	fill: none;
+}
+
+/* Specific input, SVG and path styles */
+
+/* Circle */
+.ac-circle input[type="checkbox"],
+.ac-circle input[type="radio"],
+.ac-circle label::before {
+	width: 30px;
+	height: 30px;
+	margin-top: -15px;
+	left: 10px;
+	position: absolute;
+}
+
+.ac-circle label::before {
+	background-color: #fff;
+	border: none;
+}
+
+.ac-circle svg {
+	width: 70px;
+	height: 70px;
+	margin-top: -35px;
+	left: -10px;
+}
+
+.ac-circle svg path {
+	stroke-width: 5px;
+} 
+
+/* Box Fill */
+.ac-boxfill svg path {
+	stroke-width: 8px;
+} 
+
+/* Swirl */
+.ac-swirl svg path {
+	stroke-width: 8px;
+}
+
+/* List */
+.ac-list ol {
+	list-style: decimal;
+	list-style-position: inside;
+}
+
+.ac-list ol li {
+	font-size: 2em;
+	padding: 1em 1em 0 2em;
+	text-indent: -40px;
+}
+
+.ac-list ol li label {
+	font-size: 1em;
+	text-indent: 0;
+	padding-left: 30px;
+}
+
+.ac-list label::before {
+	display: none;
+}
+
+.ac-list svg {
+	width: 100%;
+	height: 80px;
+	left: 0;
+	top: 1.2em;
+	margin-top: 0px;
+}
+
+.ac-list svg path {
+	stroke-width: 4px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 50em) {
+	section {
+		font-size: 80%;
+	}
+}
+
